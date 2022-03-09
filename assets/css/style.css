@@ -160,7 +160,7 @@ html {
 #slider {
     margin-top: 46px;
     padding-top: 50%;
-    background: url("/The_brand/assets/img/slider/slider-1.jpg") top center /cover no-repeat;
+    background: url("/assets/img/slider/slider-1.jpg") top center /cover no-repeat;
     color: #fff;
     position: relative;
     z-index: 1;
