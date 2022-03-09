@@ -100,4 +100,9 @@
         float: none!important;
         width: 100%!important;
     }
+    
+    .btn {
+        appearance: none;
+        -webkit-appearance: none;
+    }
 }
