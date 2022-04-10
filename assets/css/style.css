@@ -157,13 +157,20 @@ html {
     display: none;
 }
 
+/* Css slider  */
 #slider {
     margin-top: 46px;
-    padding-top: 50%;
-    background: url("../img/slider/slider-1.jpg") top center /cover no-repeat;
     color: #fff;
     position: relative;
     z-index: 1;
+    padding-top: 50%;
+
+}
+.slider {
+}
+
+.slider__content {
+
 }
 
 #slider .text-content {
@@ -226,29 +233,46 @@ html {
     display: flex;
     padding: 32px 0;
     list-style: none;
+    justify-content: space-around;
     
 }
 
-#content .member-item {
-    
+.member-item__img:hover img {
+    transform: scale(1.09);
 }
 
-#content .member-name {
+.member-name {
     margin: 15px 0;
 }
 
-#content .member-item img {
+.member-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-item__img {
     width: 60%;
+    overflow: hidden;
     border-radius: 8px;
+    display: flex;
+    justify-items: center;
 
 }
 
-#content .tour-section {
+.member-item .member-item__img img {
+    width: 100%;
+    transition: transform ease .3s;
+
+
+}
+
+.tour-section {
     background: #000;
     
 }
 /* .tickets-list */
-#content .tour-section .tickets-list {
+.tour-section .tickets-list {
     background-color: #fff;
     text-align: left;
     margin-top: 40px;
@@ -402,7 +426,6 @@ html {
      right: 0;
      bottom: 0;
      background-color: rgba(0,0,0,0.4);
-     
      align-items: center;
      justify-content: center;
      z-index: 100;
